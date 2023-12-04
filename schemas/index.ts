@@ -1,1 +1,4 @@
-export const schemaTypes = []
+import post from './post'
+import book from './book'
+
+export const schemaTypes = [book, post]
