@@ -44,5 +44,16 @@ export default {
       title: 'Preface',
       of: [{type: 'block'}],
     },
+    {
+      name: 'pages',
+      type: 'array',
+      title: 'Pages',
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'page'}],
+        },
+      ],
+    },
   ],
 }

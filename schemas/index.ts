@@ -1,4 +1,4 @@
-import post from './post'
+import page from './page'
 import book from './book'
 
-export const schemaTypes = [book, post]
+export const schemaTypes = [book, page]

@@ -1,7 +1,7 @@
 export default {
-  name: 'post',
+  name: 'page',
   type: 'document',
-  title: 'Post',
+  title: 'Page',
   fields: [
     {
       name: 'title',
@@ -16,12 +16,6 @@ export default {
         source: 'title',
         maxLength: 96,
       },
-    },
-    {
-      name: 'book',
-      title: 'Book',
-      type: 'reference',
-      to: [{type: 'book'}],
     },
     {
       name: 'date',
