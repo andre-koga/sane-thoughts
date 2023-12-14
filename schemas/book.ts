@@ -24,11 +24,16 @@ export default {
       options: {
         list: [
           {title: 'Finished', value: 'finished'},
-          {title: 'Ongoing', value: 'ongoing'},
           {title: 'Paused', value: 'paused'},
+          {title: 'Ongoing', value: 'ongoing'},
         ],
         layout: 'radio', // display as radio buttons
       },
+    },
+    {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
     },
     {
       name: 'image',
